@@ -1,0 +1,61 @@
+account_number,account_name,account_type,natural_balance,is_active
+1010,Cash - Operating - Chase,Asset,Debit,Y
+1020,Cash - Payroll - Chase,Asset,Debit,Y
+1030,Cash - Money Market - Schwab,Asset,Debit,Y
+1100,Accounts Receivable - Trade,Asset,Debit,Y
+1110,Allowance for Doubtful Accounts,Asset,Credit,Y
+1200,Prepaid Expenses,Asset,Debit,Y
+1210,Prepaid Insurance,Asset,Debit,Y
+1220,Prepaid Software/Subscriptions,Asset,Debit,Y
+1300,Inventory,Asset,Debit,Y
+1500,Property Plant & Equipment,Asset,Debit,Y
+1510,Accumulated Depreciation,Asset,Credit,Y
+1600,Intangible Assets,Asset,Debit,Y
+1610,Accumulated Amortization,Asset,Credit,Y
+2010,Accounts Payable - Trade,Liability,Credit,Y
+2020,Accrued Liabilities,Liability,Credit,Y
+2030,Accrued Payroll,Liability,Credit,Y
+2040,Accrued Bonus,Liability,Credit,Y
+2050,Accrued Vacation,Liability,Credit,Y
+2100,Deferred Revenue - Current,Liability,Credit,Y
+2110,Deferred Revenue - Long Term,Liability,Credit,Y
+2200,Sales Tax Payable,Liability,Credit,Y
+2210,Payroll Tax Payable,Liability,Credit,Y
+2300,Notes Payable - Current,Liability,Credit,Y
+2310,Notes Payable - Long Term,Liability,Credit,Y
+3010,Common Stock,Equity,Credit,Y
+3020,Additional Paid-In Capital,Equity,Credit,Y
+3100,Retained Earnings,Equity,Credit,Y
+4010,Revenue - Subscription,Revenue,Credit,Y
+4020,Revenue - Professional Services,Revenue,Credit,Y
+4030,Revenue - Other,Revenue,Credit,Y
+4900,Sales Discounts and Allowances,Revenue,Debit,Y
+5010,Cost of Revenue - Hosting,Expense,Debit,Y
+5020,Cost of Revenue - Personnel,Expense,Debit,Y
+5030,Cost of Revenue - Third Party,Expense,Debit,Y
+6010,Salaries - G&A,Expense,Debit,Y
+6020,Salaries - Sales,Expense,Debit,Y
+6030,Salaries - R&D,Expense,Debit,Y
+6100,Benefits,Expense,Debit,Y
+6110,Payroll Taxes,Expense,Debit,Y
+6200,Marketing - Advertising,Expense,Debit,Y
+6210,Marketing - Events,Expense,Debit,Y
+6220,Marketing - Content,Expense,Debit,Y
+6300,Rent - Office,Expense,Debit,Y
+6310,Rent - Equipment,Expense,Debit,Y
+6400,Software & Subscriptions,Expense,Debit,Y
+6410,Cloud Infrastructure,Expense,Debit,Y
+6500,Professional Fees - Legal,Expense,Debit,Y
+6510,Professional Fees - Accounting,Expense,Debit,Y
+6520,Professional Fees - Consulting,Expense,Debit,Y
+6600,Travel & Entertainment,Expense,Debit,Y
+6700,Office Supplies,Expense,Debit,Y
+6800,Depreciation Expense,Expense,Debit,Y
+6810,Amortization Expense,Expense,Debit,Y
+6900,Bank Fees,Expense,Debit,Y
+7010,Interest Income,Revenue,Credit,Y
+7020,Interest Expense,Expense,Debit,Y
+7030,Foreign Currency Gain/Loss,Expense,Debit,Y
+7900,Other Income/Expense,Expense,Debit,Y
+8010,Income Tax Expense,Expense,Debit,Y
+9999,Suspense - DO NOT POST,Asset,Debit,N

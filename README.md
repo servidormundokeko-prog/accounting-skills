@@ -15,6 +15,7 @@ These skills are designed to install together. They share two foundation skills 
 | `prepaid-schedule` | Extract prepaid items from invoices and build formula-driven amortization schedules. | Cowork → Excel add-in |
 | `pbc-package` | Map PBC request lists to support files, identify gaps, draft auditor responses. | Cowork |
 | `je-review` | Review proposed JEs for posting readiness — mechanical validation plus risk-pattern detection. | Excel add-in / Cowork |
+| `conciliacion-banesco` | Banesco (Venezuela, Bs.) bank reconciliation from scanned "Estado de cuenta" PDFs: line-by-line running-balance validation, Pago Móvil / transfer commission pairing, multi-month rec vs the bank ledger. Builds on `bank-rec`. In Spanish. | Cowork / Claude Code |
 
 ## Composition
 
@@ -63,7 +64,8 @@ accounting-skills/
 │   ├── flux-analysis/
 │   ├── prepaid-schedule/
 │   ├── pbc-package/
-│   └── je-review/
+│   ├── je-review/
+│   └── conciliacion-banesco/  Banesco (VE) — depends on bank-rec
 ├── tests/                     smoke tests for the scripts
 ├── requirements.txt
 ├── LICENSE

@@ -1,0 +1,6 @@
+periodo,pagina,dia,referencia,concepto,cargo,abono,saldo
+01-2026,1,,,SALDO MES ANTERIOR,,,"1.000,00"
+01-2026,1,02,00000000111,Banesco Pago Movil,,"10.000,00","11.000,00"
+01-2026,1,02,00000000111,"Com, Banesco Pago Movil","150,00",,"10.850,00"
+01-2026,1,05,03500000001,"TRANS,CTAS","500,00",,"10.350,00"
+01-2026,1,31,00000000000,"COM,SERV.MTTO CTA","8,00",,"10.342,00"

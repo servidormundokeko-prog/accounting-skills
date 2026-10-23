@@ -64,6 +64,7 @@ from banesco_classify import (  # noqa: E402
 )
 from banesco_parse import load_resumen, load_transcripcion, parse_ve_amount  # noqa: E402
 from banesco_validate import TOLERANCIA, hay_errores, validar  # noqa: E402
+from formato_excel import formatear_libro  # noqa: E402
 
 OLD_ITEM_DAYS = 60
 NUM_FMT = "#,##0.00;(#,##0.00)"
@@ -399,6 +400,7 @@ def escribir_workbook(out: Path, hojas: dict[str, pd.DataFrame], resumen_rec: pd
         if resumen_rec is not None:
             ws = xl.book.create_sheet("Summary", index=1)
             _escribir_summary(ws, resumen_rec, tolerancia)
+        formatear_libro(xl.book, 0 if resumen_rec is None else len(resumen_rec))
 
 
 def conciliar(

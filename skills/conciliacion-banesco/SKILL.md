@@ -90,6 +90,8 @@ El script:
 
 Pestañas: `Cover`, `Summary` (con fórmulas y una columna por mes), `Source_Bank`, `Validacion`, `Clasificacion`, `Comisiones`, `Resumen_Mensual`, `Source_GL`, `Matched`, `Probable_Matches`, `Unmatched_Bank`, `Unmatched_Book`, `Reconciling_Items` (por cierre, con antigüedad), `JEs_Proposed`, `Evidence`, `Review_Notes`.
 
+El libro sale formateado para leerse en pantalla (`scripts/formato_excel.py`): encabezados fijos con filtro, anchos ajustados al contenido, texto largo en varias líneas, montos con separador de miles y negativos entre paréntesis, ceros en blanco en las tablas de detalle y flags coloreados (rojo: revisión manual; amarillo: aclarar; verde: listo).
+
 `Resumen_Mensual` da, por mes, la cantidad y el monto de cada tipo de operación: total cobrado por Pago Móvil, comisiones, pagos al SENIAT, etc. Sirve para la nota a los estados financieros y para conversar con el cliente.
 
 ## Invariantes
